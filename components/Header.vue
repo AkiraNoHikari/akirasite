@@ -1,6 +1,7 @@
 <template>
   <header>
     <NuxtLink class="home" to="/">アキラ</NuxtLink>
+    <span>リョウカ、だいすき。</span>
     <nav>
       <ul>
         <li>
@@ -32,7 +33,6 @@
 
 <style scoped>
 header {
-  background-color: black;
   display: flex;
   font-size: 1.25rem;
   justify-content: space-between;
@@ -40,8 +40,11 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: rgba(21, 27, 31, 0);
-  z-index: 999;
+}
+
+span {
+  user-select: text;
+  color: transparent;
 }
 
 .external {
