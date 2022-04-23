@@ -9,20 +9,22 @@
             class="ds"
             target="_blank"
             href="https://youtube.com/channel/UCnCPN9xi7y8arkpymcTXzNw"
+            aria-label="YouTube"
           >
             <img class="external" src="~/assets/youtube.svg" />
           </a>
-          <a class="ds" target="_blank" href="https://twitch.tv/akiranohikari">
+          <a class="ds" target="_blank" href="https://twitch.tv/akiranohikari" aria-label="Twitch">
             <img class="external" src="~/assets/twitch.svg" />
           </a>
           <a
             class="ds"
             target="_blank"
             href="https://twitter.com/AkiraNoHikariii"
+            aria-label="Twitter"
           >
             <img class="external" src="~/assets/twitter.svg" />
           </a>
-          <a class="ds" target="_blank" href="https://github.com/AkiraNoHikari">
+          <a class="ds" target="_blank" href="https://github.com/AkiraNoHikari" aria-label="GitHub">
             <img class="external" src="~/assets/github.svg" />
           </a>
         </li>
