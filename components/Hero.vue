@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="left">
-      <img src="~/assets/Miku.webp" />
+      <img src="~/assets/Miku.webp" alt="Vampire Hatsune Miku posing" />
     </div>
     <div class="right">
       <h1>Akira</h1>
