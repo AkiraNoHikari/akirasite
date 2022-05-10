@@ -1,13 +1,9 @@
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-
-  // Target: https://go.nuxtjs.dev/config-target
   target: "static",
   router: {
     base: "/akirasite/",
   },
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Akira",
     htmlAttrs: {
@@ -25,23 +21,7 @@ export default {
       { hid: "og-site-name", property: "og:site_name", content: "Akirasite" },
       { hid: "og-image", property: "og:image", content: "https://cdn.discordapp.com/attachments/967882844191981688/967883830168006706/Unbenannt.png" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
 };
